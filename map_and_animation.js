@@ -255,12 +255,7 @@
 
         var countries_with_dates={};
 
-        function AnimateTravels() {
-          // console.log("animation wanted");
-          if (confirm("Do you want to use the data you previously submitted? Press OK if so and cancel if not.")) {
-
-          }
-          else {
+        function SetData() {
           if (confirm("Ensure you have all of the desired regions selected. Press cancel and add them if you do not.")) {
             var countries_to_animate=data[1].data;
             countries_with_dates = {};
@@ -285,6 +280,12 @@
             }
           }
         }
+
+        function AnimateTravels() {
+          // console.log("animation wanted");
+
+
+
 
         //probably want to just generate array of animations plus times tbh
         // var anims=getanimations(countries_with_dates);
