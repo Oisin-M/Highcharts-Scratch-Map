@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+
+
+<head>
+
+<!-- JQuery -->
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/maps/modules/data.js"></script>
+<script src="https://code.highcharts.com/maps/modules/map.js"></script>
+<script src="https://code.highcharts.com/mapdata/custom/world-palestine-highres.js"></script>
+<!-- CSS only -->
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+
+<!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+<!-- navbar here -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <!-- Logo -->
+              <a class="navbar-brand" href="/">
+                <img src="https://i.imgur.com/NlNqrth.png"  height="70" class="d-inline-block align-top" alt="">
+              </a>
+              <a class="navbar-brand" href="/">
+                OISÍN MORRISON
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="container">
+              <!-- navbar links -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <!-- Home -->
+                  <div class="container">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/">About <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <button onclick="AnimateTravels()">Animate my travels</button>
+                  </li>
+                  </div>
+                </ul>
+              </div>
+              </div>
+            </nav>
+
+
+<div class="row">
+
+<div class="col-2">
+  <div class="container margin_top">
+    <div class="container">
+      <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Search For Regions</button>
+  <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Search..." id="myInput" onkeyup="filterFunction()">
+    <div class="container">
+    <div id="dropdownbuttonscontainer">
+    </div>
+  </div>
+</div>
+</div>
+    </div>
+</div>
+</div>
+
+
+<div class="col-10">
+
+<div id="container"></div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+<!-- <div id="button-bar">
+    <button id="small">Small</button>
+    <button id="large">Large</button>
+    <button id="auto">Auto</button>
+</div> -->
+
+
+<!-- <dialog>
+  <p>Greetings, one and all!</p>
+  <button>Ok</button><button>Maybe</button><button>Cancel</button>
+</dialog> -->
+
+
+<link rel="stylesheet" type="text/css" href="css.css" >
+<link rel="stylesheet" type="text/css" href="dropdown.css" >
+<script src="javascript_edited.js"></script>
+
+
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+
+
+
+
+</body>
