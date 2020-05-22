@@ -59,7 +59,7 @@
             },
 
             title: {
-                text: 'Travel Map'
+                text: 'Scratch Map'
             },
 
             subtitle: {
