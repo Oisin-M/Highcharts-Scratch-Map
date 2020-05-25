@@ -1,5 +1,7 @@
 # Scratch Map
 
+### This project is live [here](https://oisin-m.github.io/Highcharts-Scratch-Map/)
+
 This is an online scratch map with animation. This website is not optimised for mobile and should be visited on a computer.
 
 Here is a sample image of the map:
