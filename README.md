@@ -1,4 +1,4 @@
-# Scratch Map
+# Highcharts Scratch Map
 
 ### This project is live [here](https://oisin-m.github.io/Highcharts-Scratch-Map/)
 
