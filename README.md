@@ -7,8 +7,6 @@ This is an online scratch map with animation. This website is not optimised for 
 Here is a sample image of the map:
 <img src="https://i.imgur.com/1iIHVek.png">
 
-You may add countries by clicking or searching in a dropdown.
+You may add countries by clicking or searching in a dropdown, and you can also animate them.
 
-Highcharts is only free for non-commercial use, so unfortunately I am not able to do much more with this app other than host it here. 
-
-For a more complete example of a scratch map, see https://github.com/Oisin-M/Scratch-Map
+For a more complete example of a scratch map with animation, please see https://github.com/Oisin-M/Scratch-Map
